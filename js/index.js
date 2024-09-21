@@ -4,7 +4,7 @@ document.getElementById('Login-btn').addEventListener('click',function(event){
    const password=document.getElementById('Pass').value;
    
    if(phoneNumber===1234 && password==="1234"){
-    window.location.href = '/home.html';
+    window.location.href = './home.html';
 
    }
    else{
